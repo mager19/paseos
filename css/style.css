@@ -31,10 +31,6 @@ select {
 }
 
 .menu__principal2{
-	background-image: url('../img/fondo__menu2.png');
-	background-repeat: no-repeat;
-	background-position: top center;
-	margin-left:0%;
 	height: 150px; 
 	position: relative;
 	z-index: 2;
