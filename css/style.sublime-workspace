@@ -1,0 +1,501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margni",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"get_template",
+				"get_template_part"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_style"
+			],
+			[
+				"paddon",
+				"padding-top"
+			],
+			[
+				"input",
+				"input--large"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"add_setting",
+				"add_settings_field"
+			],
+			[
+				"add_se",
+				"add_settings_section"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"border-lef",
+				"border-top-left-radius"
+			],
+			[
+				"get_tempal",
+				"get_template_directory_uri"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 210.0,
+		"last_filter": "fake",
+		"selected_items":
+		[
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/Nos/resources/views/engineer_card/form.blade.php",
+		"/I/Nos/resources/views/tags/form.blade.php",
+		"/I/Nos/resources/views/auth/login.blade.php",
+		"/I/Nos/resources/views/auth/register.blade.php",
+		"/I/Nos/resources/views/company/companySelect.blade.php",
+		"/I/Nos/resources/views/engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/includes/barraTop.blade.php",
+		"/I/Nos/resources/views/layouts/engineerCardsDashboard.blade.php",
+		"/I/Nos/public/css/style.css",
+		"/I/Nos/resources/views/layouts/includes/navbar.blade.php",
+		"/I/Nos/resources/views/layouts/includes/header.blade.php",
+		"/I/Nos/resources/views/auth/passwords/email.blade.php",
+		"/I/Nos/resources/views/auth/passwords/reset.blade.php",
+		"/I/Nos/resources/views/project/files.blade.php",
+		"/I/Nos/resources/views/engineer_card/files_content.blade.php",
+		"/I/Nos/resources/views/hour/form.blade.php",
+		"/I/Nos/resources/views/files/index.blade.php",
+		"/I/Nos/resources/views/project/form.blade.php",
+		"/I/Nos/resources/views/hour/formData.blade.php",
+		"/I/Nos/.env",
+		"/I/Nos/resources/views/engineer_card/files.blade.php",
+		"/I/Nos/resources/views/engineer_card/archive.blade.php",
+		"/I/Nos/resources/views/engineer_card/members.blade.php",
+		"/I/Nos/resources/views/user/form.blade.php",
+		"/I/Nos/app/UserStoryEnginerCard.php",
+		"/I/Nos/public/js/engineerCards.js",
+		"/I/Nos/app/EngineerCardUserAssign.php",
+		"/I/Nos/resources/views/user_story/form.blade.php",
+		"/C/Users/pcGrande/Desktop/respaldonav.php",
+		"/I/Nos/resources/views/layouts/topbar.blade.php",
+		"/C/Users/pcGrande/Desktop/respaldo dashboard.php",
+		"/I/Nos/resources/views/company/index.blade.php",
+		"/I/Nos/resources/views/home.blade.php",
+		"/I/Nos/resources/views/company/form.blade.php",
+		"/I/Nos/resources/views/layouts/includes/sidebar.blade.php",
+		"/I/Nos/resources/views/layouts/includes/headerCentral.blade.php",
+		"/I/Nos/resources/views/layouts/projectTemplate.blade.php",
+		"/I/Nos/resources/views/layouts/project.blade.php",
+		"/C/Users/pcGrande/Desktop/CSS3Accordion/css/style.css",
+		"/C/Users/pcGrande/Desktop/CSS3Accordion/css/demo.css",
+		"/C/Users/pcGrande/Desktop/respaldonos.php",
+		"/I/Nos/public/css/simple-sidebar.css",
+		"/E/desarrollo/nos/index.html",
+		"/I/Nos/resources/views/user_story_note/form.blade.php",
+		"/E/desarrollo/nos/dashboard.html",
+		"/I/Nos/resources/views/user_story/index.blade.php",
+		"/I/Nos/public/css/login.css",
+		"/C/Users/pcGrande/Desktop/index.html",
+		"/I/Nos/resources/views/engineer_card_note/form.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade_.php",
+		"/I/Nos/resources/views/engineer_card_note/index.blade.php",
+		"/C/Users/pcGrande/Desktop/not.php",
+		"/C/Users/pcGrande/Desktop/form.blade2.php",
+		"/I/Nos/public/js/engineerCardForm.js",
+		"/I/Nos/resources/views/user_story_engineer_card/form.blade.php",
+		"/I/Nos/resources/views/hour/index.blade.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/style.css",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/footer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/index.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/specials.php",
+		"/I/tcaster/template-parts/nav-social.php",
+		"/I/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/header.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/functions.php",
+		"/I/tcaster/index.php",
+		"/I/tcaster/single.php",
+		"/I/tcaster/template-parts/content-page.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/custom_post_type.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/slide-menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/content.php",
+		"/I/tcaster/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/functions.php",
+		"/C/Users/pcGrande/Desktop/mario.php",
+		"/C/Users/pcGrande/Desktop/form.blade.php",
+		"/C/Users/pcGrande/Desktop/arrancaserver",
+		"/C/Users/pcGrande/Desktop/Home",
+		"/E/marioform.blade.php",
+		"/I/Nos/app/Http/Models/CompanyModel.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/I/nos2/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/user_story_engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/includes/bottomInclude.blade.php",
+		"/I/Nos/routes/web.php",
+		"/I/Nos/resources/views/engineer_card/index.blade_1.php",
+		"/C/php/php.ini-development",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/function-admin.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/404.php",
+		"/I/tcaster/archive.php",
+		"/I/xampp/htdocs/portafolio/Movefile",
+		"/C/Users/pcGrande/Desktop/tp4.m3u",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/inc/function_admin.php",
+		"/E/desarrollo/tema_portafolio/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/header.php",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.css",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.html",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/twentyseventeen/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tcaster/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/template-parts/nav-social.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/functions.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/header.php",
+		"/I/xampp/htdocs/portafolio/wp-config.php",
+		"/C/Users/pcGrande/Desktop/prue.m3u",
+		"/C/Users/pcGrande/Desktop/sgeo.m3u",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/style.css",
+		"/C/Users/pcGrande/Desktop/enlighten/inc/customizer.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/index.php",
+		"/C/Users/pcGrande/Desktop/enlighten/template-parts/section-client.php",
+		"/C/Users/pcGrande/Desktop/enlighten/index.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"<project>",
+			"I:\\",
+			"I:\\Nos",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-md-1",
+			"send",
+			"register",
+			"members",
+			"conten",
+			"nav__item",
+			"180px",
+			"panel-title",
+			"etique",
+			"panel",
+			"margin",
+			"box",
+			"central",
+			"48B27E",
+			".central",
+			"ul",
+			"4",
+			"select--corto",
+			"central__contenido__",
+			" nav__item--active",
+			"value",
+			"getUserStoryEngineerCards",
+			"getUserStoryEngineerCards();",
+			"2",
+			"1",
+			"Name",
+			"name",
+			"special-1",
+			"3",
+			"as",
+			"10",
+			"2",
+			"form-group",
+			">\n",
+			"2",
+			"<label for=\"idrisk\" ",
+			"title",
+			"ing__cards",
+			"<div id=\"divUser3\" class=\"col-md-6\" style=\"border: 1px solid;\">",
+			"fff",
+			"loading__loader",
+			".modal-content ",
+			".loading-bar",
+			".loading_content",
+			"notes",
+			"card members",
+			"members",
+			"ssl",
+			"intro_slide",
+			"settings",
+			"temasectionuno",
+			"temasectiondos",
+			"ddd",
+			"margin-right",
+			"espn",
+			"fOX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
