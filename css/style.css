@@ -9,6 +9,9 @@
   font-family: 'Sign';
   src: local('../fonts/Sign.ttf'),
        url(../fonts/Sign.ttf) format('truetype');
+  font-family: 'oblique';
+  src: local('../fonts/helvetica-oblique.ttf'),
+       url(../fonts/helvetica-oblique.ttf) format('truetype');
 }
 
 @font-face{
@@ -31,7 +34,7 @@ select {
 }
 
 .menu__principal2{
-	height: 150px; 
+	height: 50px; 
 	position: relative;
 	z-index: 2;
 	position: absolute;
@@ -84,10 +87,16 @@ select {
 	top: 0;
 }
 
-
 .logoisla, .logoisla2{
 	margin-left: -2em;
-	margin-top: 5px;
+	margin-top: 0px;
+}
+
+.logoisla p{
+	font-size: 0.7em;
+	font-family: 'oblique';
+	font-style: italic;
+	font-weight: 800;
 }
 
 .navbar{
@@ -163,37 +172,32 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	font-size: 'Myriad Pro';
-	margin-right: 0.1em;
+	margin-right: 1em;
 	height: 36px;
-	padding: 9px 0.2em;
+	padding: 12px 0em;
 	vertical-align: middle;
 }
 
 nav ul li a{
-	color:#fff;
-	font-size: 0.8em;
+	color:#5a5d5d;
+	font-size: 1.1em;
+	font-weight: 500;
 }
 
 nav ul li:hover, .activo{
-	background-color: #69356A;
-	color:#fff;
-	-webkit-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.5);
-	box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.5);
+	font-weight: 600;
+	padding-bottom: 10px;
 }
 
 nav ul li:hover a{
-	color:#fff;
-	text-decoration: none;
+	color:#5a5d5d;
+	text-decoration: underline;
+
 }
 
 nav ul li:last-child{
 	margin-right: 0em;
 	padding: 5px 0.2em;
-}
-
-.nav__contenido{
-	margin-left: 10%;
 }
 
 .navbar{
@@ -217,35 +221,36 @@ nav ul li:last-child{
 }
 
 .nohover{
-	padding-top: 7px;
+	padding-top: 12px;
 }
 
 .input__corto{
-	padding-top: 8px;
-	width: 12%;
+	padding-top: 12px;
+	margin-left: 1.9em;
+	width: 10%;
 }
 
 .input__corto input{
 	border:0px;
-	background: #717171 url('../img/search.png')5% 50%  no-repeat;
+	background: #CFD6D6 url('../img/search.png')5% 50%  no-repeat;
     color: #fff;
 	padding-left: 20px;
 	width: 100%;
 }
 
-.spain{
+.gicsa{
+	padding-top: 0px!important;
+}
+
+/*.spain{
 	border-right: 2px solid #5C3A5A;
 	padding-right: 10px;
 	padding-left: 10px;
-}
+}*/
 
 .spain img{
 	width: 20px;
 	padding-top: 8px;
-}
-
-.gicsa{
-	border-left: 2px solid #5C3A5A;
 }
 
 .english img{
@@ -620,7 +625,7 @@ body > section.apps2{
 }
 
 .directorio{
-	padding:10em 0 2em 0;
+	padding:6em 0 2em 0;
 }
 
 .directorio--search{
@@ -684,7 +689,7 @@ body > section.apps2{
 .search__contenido input:-moz-placeholder { color: #c7c7c7;font-size: 0.9em; }
 
 .selector__categoria{
-	background-color: #6E3568;
+	background-color: #000000;
 	height: 30px;
 	margin-left: -3em;
 	text-align: center;
@@ -692,14 +697,14 @@ body > section.apps2{
 }
 
 .selector__categoria select{
-	background-color: #6E3568;
+	background-color: #000000;
 	border:0px;
 	color:#fff;
 	text-align: center;
 }
 
 .directorio .selector__categoria select{
-	background-color: #6E3568;
+	background-color: #000000;
 	border:0px;
 	color:#fff;
     padding-left: 20%;
@@ -713,7 +718,7 @@ body > section.apps2{
 }
 
 .categoria__title span{
-	color:#5F1F58;
+	color:#404041;
 	font-size: 1.1em;
 	font-weight: 600;
 	padding-top: 1px;
@@ -1757,27 +1762,13 @@ td.event.important {
     	text-align: right;
     	margin-right: 2em;
 	}
-	.nav__contenido{
-		margin-left: 6em;
-	}
+
 
    	.menu__principal ul li a {
         font-size: 0.7em!important;
 	}
 	
-	nav ul li {
-    	margin-right: 0.1em;
-	    padding: 7px 0.2em;
-	}
-
-	nav ul li {
-		height: 35px;
-	}
-
-	nav h4 {
-	    font-size: 0.7em;
-	    margin: 10px 0;
-	}
+	
 
 	.atardecer__item img {
     	padding: 0.40em 0;
@@ -1958,45 +1949,28 @@ td.event.important {
 	    margin-right: 0em;
 	}
 
-	.menu__principal2 {
-	    background-image: url(../img/fondo__menu__movil.png);
-	    background-repeat: no-repeat;
-	    margin-left: 0%;
-	    background-position: top center;
-	    background-size: cover;
-	    height: 123px;
-	}
-
-	.logoisla {
-    	margin-left: -6.5em;
-    	margin-top: 5px;
-	}
-
-	.logoisla2{
-		margin-left: -8em;
-		margin-top: 5px;
-	}
-	
-	.nav__contenido {
-    	margin-left: 2em;
-	}
-
 	nav ul li {
 	    display: inline-block;
 	    font-size: 'Myriad Pro';
-	    margin-right: 0.1em;
+	    margin-right: 0.4em;
 	    height: 29px;
 	    padding: 5px 0.2em;
 	    vertical-align: middle;
 	}
 
 	nav ul li a {
-        font-size: 0.69em;
+        font-size: 0.9em;
 	}
 
 	nav ul li:last-child img {
 	    padding: 0px 0px 0px 8px;
 	    width: 95%;
+	}
+
+	.input__corto {
+    	padding-top: 8px;
+    	margin-left: 0em;
+    	width: 11%;
 	}
 
 	.socialmedia {
@@ -2918,6 +2892,12 @@ td.event.important {
 }
 
 @media screen and (max-width:480px) {
+
+	 .categoria__item img { 
+    	border: 0px solid #c1c1c1; 
+    	width: 280px; 
+    	height: 150px; 
+  	} 
 	
 	.logo img{
 		width: 122px;

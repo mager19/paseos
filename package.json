@@ -11,5 +11,13 @@
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mager19/paseos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mager19/paseos/issues"
+  },
+  "homepage": "https://github.com/mager19/paseos#readme"
 }
