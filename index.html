@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<!-- Menu Movil -->
+		<!-- Menu Movil -->
 	<nav class="navbar">
 		<div class="container-fluid">
 			<div class="row">
@@ -37,7 +37,14 @@
 						<a href="index.html"><img src="img/logomovil.png" alt="logo forum"></a>
 					</div>
 			    </div>
-			    <div class="col-xs-4">
+				
+				<div class="col-xs-offset-4 col-xs-1">
+					<div class="search__movil">
+						<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/search-tablet.png" alt="search"></a>
+					</div>
+				</div>
+
+			    <div class="col-xs-offset-1 col-xs-1">
 			    	<div class="navbar-header">
 			    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					        <span class="sr-only">Toggle navigation</span>
@@ -47,18 +54,7 @@
 					     </button>		    	
 				    </div>
 			    </div>
-		
-				<div class="col-xs-1">
-					<div class="search__movil">
-						<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/search-tablet.png" alt="search"></a>
-					</div>
-				</div>
-				
-				<div class="col-xs-2">
-					<div class="logogicsa2">
-						<a href="#"><img src="img/gicsalogo.png" alt="Gicsa"></a>
-					</div>							
-				</div>
+
 			   <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="col-xs-12">
 			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -213,7 +209,7 @@
 										<div class="col-md-8 nopadding">
 											<ul class="nombres">
 												<li>
-													<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+													<h4><a href="#">Buenavista</a> | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
 												</li>
 												<li>
 													<h4>Arcos Bosques | Coapa | Querétano | Metepec | Xochimilco</h4>
@@ -225,7 +221,7 @@
 													<h4>Cancún | Guadalajara | Lerma | Monterrey | Norte | Riviera Maya 1 | Sur</h4>
 												</li>
 												<li>
-													<h4>Culiacán | Querétano | León | Pachuca | Puebla</h4>
+													<h4>Culiacán | Querétano | León | Pachuca | Puebla Culiacán | Querétano | León | Pachuca | Puebla Culiacán | Querétano | León | Pachuca | Puebla</h4>
 												</li>
 											</ul>
 										</div>
@@ -241,7 +237,7 @@
 							<div class="col-xs-12 nombres__movil">
 								<h4>Forum</h4>
 								<ul class="nombres">
-									<li>Buenavista </li> <li>Coatzacoalcos </li> <li class="sin_separador">Cuernavaca</li> <li>Tepic </li> <li class="sin_separador">Tlaquepaque</li>
+									<li><a href="#">Buenavista</a> </li> <li>Coatzacoalcos </li> <li class="sin_separador">Cuernavaca</li> <li>Tepic </li> <li class="sin_separador">Tlaquepaque</li>
 								</ul>
 									
 								<h4>Paseo</h4>
@@ -304,27 +300,7 @@
 		  		prevArrow: $('.atardecer-prev'),
 		  		nextArrow: $('.atardecer-next'),
 
-		  		responsive: [
-		  			
-
-				    {
-				      breakpoint: 800,
-				      settings: {
-				        slidesToShow: 3,
-				        slidesToScroll: 1,
-				        infinite: true,
-				        
-				      }
-		    		},    		
-		    		{
-		      		  breakpoint: 480,
-		      		  settings: {
-		        	  slidesToShow: 3,
-		        	  slidesToScroll: 1,
-		        	  arrows: false,
-		      		}
-		    },
-		    	]
+		  		
        		});
     	}
     });

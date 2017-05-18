@@ -179,7 +179,7 @@ nav ul li{
 }
 
 nav ul li a{
-	color:#5a5d5d;
+	color:#000002;
 	font-size: 1.1em;
 	font-weight: 500;
 }
@@ -190,7 +190,7 @@ nav ul li:hover, .activo{
 }
 
 nav ul li:hover a{
-	color:#5a5d5d;
+	color:#000002;
 	text-decoration: underline;
 
 }
@@ -427,12 +427,21 @@ body > section.apps2{
 
 .footer__container ul li h4{
 	font-size: 0.8em;
-	line-height: 1em;
+	line-height: 1.5em;
 }
 
-.footer__desktop{
-	
+.footer__container ul li h4 a:hover{
+	color:#980701;
 }
+
+.footer__container ul li h4 a 
+{  
+  color:#ccc;  
+}  
+  
+.nombres__movil ul li a, .nombres__movil ul li a:link, .nombres__movil ul li a:visited, .nombres__movil ul li a:hover, .nombres__movil ul li a:active{  
+  color:#ccc;  
+}  
 
 /*Middle********/
 .middle__item{
@@ -604,7 +613,7 @@ body > section.apps2{
 }
 
 .vista__aerea__info{
-	background-color:rgba(110,25,89,0.2);
+	background-color:#fafafa;
 	height: 350px;  
     overflow-y: scroll;  
    
@@ -1929,6 +1938,7 @@ td.event.important {
 }
 
 @media (max-width: 1199px) {
+	
 
 	.spain {
 	    padding-right: 5px;
@@ -2065,7 +2075,7 @@ td.event.important {
     }
 
 	nav{
-		background-color: #333333;
+		background-color: #000002;
 	}
 
 	
@@ -2143,7 +2153,7 @@ td.event.important {
 	}
 
 	.navbar-collapse ul li:hover a{
-		color:#711B5D;
+		color:#fff;
 	} 
 
 	.icons{
@@ -2170,7 +2180,7 @@ td.event.important {
 	}
 
 	.newsletter-movil a{
-		background-color:#711B5D;
+		background-color:#000002;
 		color:#fff;
 		display: block;
 		font-size: 1em;
@@ -3243,7 +3253,7 @@ td.event.important {
 	}
 
 	.novedades__imagen img {
-	    width: 350px;
+	    width: 330px; 
 	    height: 220px;
 	}
 
