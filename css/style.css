@@ -184,20 +184,19 @@ nav ul li a{
 	font-weight: 500;
 }
 
-nav ul li:hover, .activo{
+nav ul li:hover{
+
 	font-weight: 600;
 	padding-bottom: 10px;
 }
 
-nav ul li:hover a{
-	color:#000002;
-	text-decoration: underline;
-
+nav ul li:hover a, .activo a{
+	color: #aeafb1;
 }
 
 nav ul li:last-child{
 	margin-right: 0em;
-	padding: 5px 0.2em;
+	padding: 0px 0.2em;
 }
 
 .navbar{
@@ -347,8 +346,8 @@ nav ul li:last-child{
 }
 
 .news button, .news2 button{
-	background-color: #6E3568;
-    border: 1px solid #9625C5;
+	background-color: #6d6e71;
+    border: 1px solid #000002;
     color: #fff;
     height: 20px;
     margin-left: 1em;
@@ -749,9 +748,9 @@ body > section.apps2{
 	background-image: url("../img/logos/title_item.jpg");
 	background-size:cover;
 	color:#fff;
-	margin-left: 5%;
-	margin-top: -8px;
-	width: 90%;
+	margin-left: 6%;
+	margin-top: -10px;
+	width: 150px;
 }
 
 .categoria__item__title h4{
@@ -945,7 +944,7 @@ body > section.apps2{
 
 .detalle__tienda2{
 	padding-left: 1em;
-	margin-top: 10em;
+	margin-top: 6em;
 }
 
 .detalle__tienda2 p{
@@ -958,12 +957,17 @@ body > section.apps2{
     margin-bottom: 1em;
 }
 
+.solucion__footer{ 
+  min-height: 20vh; 
+} 
+
+
 /********************************
 ------------NOVEDADES-----------
 *********************************/
 
 .novedades{
-	margin-top: 10em;
+	margin-top: 8em;
 }
 
 .novedades__item{
@@ -1028,7 +1032,7 @@ body > section.apps2{
 }
 
 .novedades__info .btn__rojo{
-	background-color:#5F1F58;
+	background-color:#000002;
 	color:#fff!important;
 	font-size: 1em;
 	font-weight: 500;
@@ -1038,7 +1042,7 @@ body > section.apps2{
 }
 
 .btn__rojo{
-	background-color:#5F1F58;
+	background-color:#000002;
 	color:#fff!important;
 	font-size: 1em;
 	font-weight: 500;
@@ -1067,12 +1071,12 @@ body > section.apps2{
 *********************************/
 
 .novedades__detalle{
-	padding-top: 10em;
+	padding-top: 8em;
     margin-bottom: 2em;
 }
 
 .novedades__detalle__title span{
-	color:#5F1F58;
+	color:#000002;
 	font-size: 1.1em;
 	font-weight: 600;
 	padding-top: 1px;
@@ -1111,7 +1115,7 @@ body > section.apps2{
 }
 
 .compartir__detalle h4{
-	color:#5F1F58;
+	color:#000002;
 	font-size: 0.9em;
 	font-weight: 600;
 }
@@ -1121,7 +1125,7 @@ body > section.apps2{
 -----------PROMOCIONES---------
 *********************************/
 .promociones{
-	padding-top: 10em;
+	padding-top: 8em;
 }
 
 .promo__container{
@@ -1137,7 +1141,7 @@ body > section.apps2{
 }
 
 .promo__item__title{
-	color:#5F1F58;
+	color:#000002;
 	font-size: 1em;
 	font-weight: 600;
 	margin-top: 2em;
@@ -1267,7 +1271,7 @@ body > section.apps2{
 }
 
 .restricciones h3{
-	color:#5F1F58;
+	color:#000002;
 	font-size: 1em;
 	font-weight: 600;
 }
@@ -1288,7 +1292,7 @@ body > section.apps2{
 *********************************/
 
 .calendario{
-	padding-top: 10em;
+	padding-top: 8em;
 	padding-bottom: 7em;
 }
 
@@ -1842,10 +1846,7 @@ td.event.important {
         font-size: 0.9em;
     }
 
-    .categoria__item__title {
-	    margin-left: 0%;
-    	width: 112%;
-	}
+
 
 	/*detalle tienda*/
 	.imagen__tienda img{
@@ -1938,7 +1939,12 @@ td.event.important {
 }
 
 @media (max-width: 1199px) {
+
 	
+	
+	.categoria__item__title { 
+    	margin-left: 0%; 
+  	} 
 
 	.spain {
 	    padding-right: 5px;
@@ -2029,6 +2035,10 @@ td.event.important {
 
 @media screen and (max-width:1000px) {
 	
+	.solucion__footer{ 
+    	min-height: 1px; 
+  	} 
+
 	.slide__item {
         background-position: center;
 	}
@@ -2137,6 +2147,7 @@ td.event.important {
 
 	.navbar-collapse ul li a{
 		font-size: 1.2em;
+		color:#fff;
 	}
 
 	.navbar-collapse.in{
@@ -2145,7 +2156,6 @@ td.event.important {
 	}
 
 	.navbar-collapse ul li:hover  {
-	    background-color: #333;
 	    color: #fff;
 	    -webkit-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0);
 	    -moz-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0);
@@ -3649,7 +3659,7 @@ td.event.important {
 	}
 
 	.detalle img{
-		width: 300px;
+		width: 100%;
 	}
 
 	.promo__container{
