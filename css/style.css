@@ -145,13 +145,13 @@ header{
 
 .slide__item1 {
   -webkit-animation-duration: 50s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
   -moz-animation-duration: 50s;
-  -moz-animation-delay: 1s;
+  -moz-animation-delay: 0s;
   -moz-animation-iteration-count: 1;
    animation-duration: 3s;
-  animation-delay: 2s;
+  animation-delay: 0s;
  }
 
  .slide__item2 {
