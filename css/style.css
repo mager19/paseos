@@ -129,13 +129,41 @@ select {
 	padding-top: 1px;
 }
 
-.slide1{
-	background-image: url('../img/header__prueba.jpg');
+header{
+	background: url('../img/slide__fondo.jpg') no-repeat;
+  	height: 85vh;
 }
 
-.slide2{
-	background-image: url('../img/header2.jpg');
+.slide{
+	margin-top: 12%;
 }
+
+.slide div:nth-child(2){
+	margin-top: 4em;
+	padding-left: 2em;
+}
+
+.slide__item1 {
+  -webkit-animation-duration: 50s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 50s;
+  -moz-animation-delay: 1s;
+  -moz-animation-iteration-count: 1;
+   animation-duration: 3s;
+  animation-delay: 2s;
+ }
+
+ .slide__item2 {
+  -webkit-animation-duration: 50s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 50s;
+  -moz-animation-delay: 3s;
+  -moz-animation-iteration-count: 1;
+   animation-duration: 3s;
+  animation-delay: 3s;
+ }
 
   .slide__principal .slick-list,
   .slide__principal .slick-track,
@@ -231,7 +259,7 @@ nav ul li:last-child{
 
 .input__corto input{
 	border:0px;
-	background: #CFD6D6 url('../img/search.png')5% 50%  no-repeat;
+	background: #a9a198 url('../img/search.png')5% 50%  no-repeat;
     color: #fff;
 	padding-left: 20px;
 	width: 100%;
@@ -1712,18 +1740,41 @@ td.event.important {
 		margin-top: 0vh;
 	}
 
-	
+		
 }
 
-@media screen and (min-width:1440px) {
+
+@media screen and (max-width:1600px) {
+
+	.slide{
+		margin-top: 16%;
+	}
+
+	.slide div:nth-child(2){
+		margin-top: 4em;
+		padding-left: 2em;
+	}
+}
+
+
+
+@media screen and (max-width:1440px) {
 	.footer__container--grande{
 		height: 22vh;
 	}
 	.middle--bottom{
 		margin-top: 34vh;
 	}
-}
 
+	.slide{
+		margin-top: 15%;
+	}
+
+	.slide div:nth-child(2){
+		margin-top: 4em;
+		padding-left: 2em;
+	}
+}
 
 
 @media (max-width: 1000px) {
@@ -1769,6 +1820,10 @@ td.event.important {
 
 
 @media (max-width: 1279px) {
+
+	.slide{
+		margin-top: 17%;
+	}
 	
 	.promociones__detalle .compartir__nuevo {
     	margin-left: -1em;
@@ -1939,8 +1994,22 @@ td.event.important {
 }
 
 @media (max-width: 1199px) {
-
 	
+	.logoisla img{
+		width: 100%;
+	}
+
+	.slide{
+		margin-top: 19%;
+	}
+
+	.slide img{
+		width: 80%;
+	}
+
+	.slide div:nth-child(2) {
+        padding-left: 0em;
+	}
 	
 	.categoria__item__title { 
     	margin-left: 0%; 

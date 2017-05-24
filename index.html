@@ -9,18 +9,21 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-	<script type="text/javascript" src="js/instafeed.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
 
 <header>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<!-- Slide Principal -->
-			<div class="col-md-12 nopadding">
-				<div class="slide__principal">	
-					<div class="slide__item slide1"></div>
-					<div class="slide__item slide2" ></div>							
+			<div class="slide__principal slide">
+				<div class="col-md-6">
+					<img class="animated fadeInLeftBig slide__item1" src="img/slide__item1.png" alt="" >
+				</div>
+
+				<div class="col-md-6">
+					<img class="animated flash slide__item2" src="img/slide__item2.png" alt="" >
 				</div>
 			</div>
 			<!-- /Slide Principal -->
@@ -276,116 +279,7 @@
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/slick.js"></script>
 
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-    	get: 'user',
-        userId: '36759062',
-        accessToken: '36759062.1677ed0.c12b78d05b474395910d3740290b79c0',
-        template: '<div class="atardecer__item"><a href="{{link}}" target="_blank"><img src="{{image}}" /></a></div>',
-        limit: 11,
-        resolution: 'standard_resolution',
-        
-        after: function () {
-       		$('.slide__principal2').slick({
-       			slidesToShow: 10,
-  				slidesToScroll: 1,
-  				autoplay: true,
-				dots: false,
-				infinite: true,
-		  		slidesToShow: 10,
-		  		slidesToScroll: 1,
-		  		arrows:true,
-		  		prevArrow: $('.atardecer-prev'),
-		  		nextArrow: $('.atardecer-next'),
-
-		  		
-       		});
-    	}
-    });
-    userFeed.run();
-</script>
-
-
-<script>$(document).ready(function(){
-  $('.slide__principal').slick({
-		autoplay: false,
-		dots: false,
-		infinite: true,
-  		slidesToShow: 1,
-  		slidesToScroll: 1,
-  		arrows:true,
-  		autoplay:false,
-  		responsive: [
-  		    {
-		      breakpoint: 800,
-		      settings: {
-		        slidesToShow: 1,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},    		
-    		{
-      		  breakpoint: 480,
-      		  settings: {
-        	  slidesToShow: 1,
-        	  slidesToScroll: 1
-      		}
-    },
-    	]
-	});
-
-  	$('.stores').slick({
-		autoplay: false,
-		dots: false,
-		infinite: true,
-  		slidesToShow: 10,
-  		slidesToScroll: 1,
-  		arrows:true,
-  		prevArrow: $('.tienda-prev'),
-  		nextArrow: $('.tienda-next'),
-
-  		responsive: [
-  			{
-		      breakpoint: 1280,
-		      settings: {
-		        slidesToShow: 8,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},  
-
-  			{
-		      breakpoint: 800,
-		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 1,
-		        infinite: true,
-		        
-		      }
-    		},    		
-    		{
-      		  breakpoint: 480,
-      		  settings: {
-        	  slidesToShow: 2,
-        	  slidesToScroll: 1,
-        	  arrows: false,
-      		  }
-    		},
-    			
-    	]
-	});
-
-  	$('li.dropdown').hover(function() {
-	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-	}, function() {
-	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-	});
-
-});</script>
 </body>
 </html>
 
