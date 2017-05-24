@@ -129,13 +129,14 @@ select {
 	padding-top: 1px;
 }
 
-header{
+.header__home{
 	background: url('../img/slide__fondo.jpg') no-repeat;
+	background-size: cover;
   	height: 85vh;
 }
 
 .slide{
-	margin-top: 12%;
+	margin-top: 25vh;
 }
 
 .slide div:nth-child(2){
@@ -145,13 +146,13 @@ header{
 
 .slide__item1 {
   -webkit-animation-duration: 50s;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 1s;
   -webkit-animation-iteration-count: 1;
   -moz-animation-duration: 50s;
-  -moz-animation-delay: 0s;
+  -moz-animation-delay: 1s;
   -moz-animation-iteration-count: 1;
    animation-duration: 3s;
-  animation-delay: 0s;
+  animation-delay: 1s;
  }
 
  .slide__item2 {
@@ -253,7 +254,7 @@ nav ul li:last-child{
 
 .input__corto{
 	padding-top: 12px;
-	margin-left: 1.9em;
+	margin-left: 0em;
 	width: 10%;
 }
 
@@ -1677,7 +1678,7 @@ td.event.important {
 
 @media screen and (min-width:1921px) {
 	
-	header{
+	.header__home{
 		background: url('../img/slide__fondo.jpg') no-repeat;
 	  	background-size: cover;
 	}
@@ -1706,11 +1707,9 @@ td.event.important {
 	}
 
 	.input__corto {
-        margin-left: 1em;
+        margin-left: 0em;
         width: 10%;
-	}
-
-	
+	}	
 
 
 }
@@ -1748,12 +1747,25 @@ td.event.important {
 	}
 
 	.slide{
-		margin-top: 15%;
+		margin-top: 17%;
 	}
 
 	.slide div:nth-child(2){
 		margin-top: 4em;
 		padding-left: 2em;
+	}
+
+	.slide img{
+		width: 95%;
+	
+	}
+}
+
+
+
+@media screen and (max-width:1366px) {
+	.slide img{
+		width: 85%;
 	}
 }
 
@@ -1801,11 +1813,12 @@ td.event.important {
 
 
 @media (max-width: 1279px) {
+	
 
 	.slide{
-		margin-top: 17%;
+		margin-top: 16%;
 	}
-	
+
 	.promociones__detalle .compartir__nuevo {
     	margin-left: -1em;
     	text-align: right;
@@ -1977,11 +1990,11 @@ td.event.important {
 	}
 
 	.slide{
-		margin-top: 19%;
+		margin-top: 16%;
 	}
 
 	.slide img{
-		width: 100%;
+		width: 80%;
 	}
 
 	.slide div:nth-child(2) {
@@ -2014,7 +2027,7 @@ td.event.important {
 	nav ul li {
 	    display: inline-block;
 	    font-size: 'Myriad Pro';
-	    margin-right: 0.4em;
+	    margin-right: 0.2em;
 	    height: 29px;
 	    padding: 5px 0.2em;
 	    vertical-align: middle;
@@ -2080,6 +2093,10 @@ td.event.important {
 
 
 @media screen and (max-width:1000px) {
+	
+	.header__home{
+		background-size: cover;
+	}
 
 	.slide {
 	    margin-top: 17%;
@@ -2087,7 +2104,7 @@ td.event.important {
 	}
 
 	.slide img{
-		width: 80%;
+		width: 75%;
 	}
 	
 	.solucion__footer{ 
@@ -3803,3 +3820,70 @@ only screen and (max-width: 768px),
   }
 }
 
+
+/*iPhone 6 in landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+	
+	.slide div:nth-child(1){
+		display: none;
+	} 
+
+	.slide div img{
+		margin-left:20%;
+		width: 90%;
+	}
+
+}
+
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+	.slide div:nth-child(1){
+		display: none;
+	}
+
+	.slide div img{
+		margin-left:20%;
+		width: 90%;
+	}
+
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+
+	.slide div:nth-child(1){
+		display: none;
+	}
+
+	.slide div img{
+		margin-left:30%;
+		width: 80%;
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) { 
+
+	.slide div:nth-child(1){
+		display: none;
+	}
+
+	.slide div img{
+		margin-left:40%;
+		width: 70%;
+	}
+
+}
