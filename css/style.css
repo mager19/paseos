@@ -1676,6 +1676,13 @@ td.event.important {
 *********************************/
 
 @media screen and (min-width:1921px) {
+	
+	header{
+		background: url('../img/slide__fondo.jpg') no-repeat;
+	  	background-size: cover;
+	}
+
+	
 	.middle--bottom{
 		margin-top: 34vh;
 	}
@@ -1694,42 +1701,16 @@ td.event.important {
 	}
 
 	.nav__contenido{
-		margin-left: 2em;
+		margin-left: 0em;
 		margin-top: 5px;
 	}
 
 	.input__corto {
-        width: 17%;
+        margin-left: 1em;
+        width: 10%;
 	}
 
-	.menu__principal2{
-		background-image: url('../img/fondo__menu2.png');
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-size: cover;
-		margin-left:0%;
-		height: 172px; 
-		position: relative;
-		z-index: 2;
-		position: absolute;
-		width: 100%;
-		top: 0;
-	}
-
-	.menu__principal__interno{
-	background-image: url('../img/fondo__menu__interno.png');
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	margin-left:0%;
-	height: 150px; 
-	position: relative;
-	z-index: 2;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	}
-
+	
 
 
 }
@@ -1760,7 +1741,7 @@ td.event.important {
 
 @media screen and (max-width:1440px) {
 	.footer__container--grande{
-		height: 22vh;
+		height: 100%;
 	}
 	.middle--bottom{
 		margin-top: 34vh;
@@ -1836,8 +1817,6 @@ td.event.important {
         font-size: 0.7em!important;
 	}
 	
-	
-
 	.atardecer__item img {
     	padding: 0.40em 0;
     	width: 62px;
@@ -1900,8 +1879,6 @@ td.event.important {
 	.selector__categoria select {
         font-size: 0.9em;
     }
-
-
 
 	/*detalle tienda*/
 	.imagen__tienda img{
@@ -2004,7 +1981,7 @@ td.event.important {
 	}
 
 	.slide img{
-		width: 80%;
+		width: 100%;
 	}
 
 	.slide div:nth-child(2) {
@@ -2103,6 +2080,15 @@ td.event.important {
 
 
 @media screen and (max-width:1000px) {
+
+	.slide {
+	    margin-top: 17%;
+	    text-align: center;
+	}
+
+	.slide img{
+		width: 80%;
+	}
 	
 	.solucion__footer{ 
     	min-height: 1px; 
@@ -2141,7 +2127,7 @@ td.event.important {
 	}
 
 	.logo{
-		margin-left: -1.5em;
+		margin-left: 0em;
 		padding: 0em;
 	}
 
@@ -2980,7 +2966,29 @@ td.event.important {
 
 }
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+	
+	.slide {
+	    margin-top: 10%;
+	    text-align: center;
+	}
+
+	.slide img{
+		width: 28%;
+	}
+}
+
+
+
 @media screen and (max-width:480px) {
+	
+	.slide {
+	    margin-top: 32%;
+	    text-align: center;
+	}
 
 	 .categoria__item img { 
     	border: 0px solid #c1c1c1; 
