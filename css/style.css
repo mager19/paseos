@@ -774,13 +774,14 @@ body > section.apps2{
 }
 
 .categoria__item__title{
-	background-image: url("../img/logos/title_item.jpg");
+	background-color: #000002;
 	background-size:cover;
 	color:#fff;
 	margin-left: 6%;
 	margin-top: -10px;
 	width: 150px;
 }
+
 
 .categoria__item__title h4{
 	font-size: 0.8em;
@@ -2484,7 +2485,7 @@ td.event.important {
 	.categoria__item img {
     	border: 0px solid #c1c1c1;
     	width: 280px;
-    	height: 190px;
+    	height: 150px;
     }
 
     .categoria__item__title {
@@ -2497,7 +2498,7 @@ td.event.important {
 
 	.categoria__item__title h4{
 		font-size: 1.8em;
-    	padding-top: 10px;
+    	padding: 10px 0;
     }
 	
 	.categoria__item p{
