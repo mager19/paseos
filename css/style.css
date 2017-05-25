@@ -542,7 +542,7 @@ body > section.apps2{
 *********************************/
 
 .nosotros__header{
-	margin-top: 12em;
+	margin-top: 9em;
 }
 
 .nosotros__tabs .categoria__title {
@@ -566,7 +566,7 @@ body > section.apps2{
 }
 
 .nav.nav-pills{
-	background-color: #6E1959;
+	background-color: #000002;
 }
 
 .nav.nav-pills > li{
@@ -594,11 +594,11 @@ body > section.apps2{
 }
 
 .nav.nav-pills > li > a:hover{
-	background-color:#520d41; 
+	background-color:#333; 
 }
 
 .nav.nav-pills > li.active a{
-	background-color: #520d41;
+	background-color: #333;
 }
 
 .nosotros__tabs .slick-slide img {
@@ -613,9 +613,9 @@ body > section.apps2{
 }
 
 .nosotros__tabs .tab-content{
-	border-left:2px solid #5F1F58;
-	border-right:2px solid #5F1F58;
-	border-bottom:2px solid #5F1F58;
+	border-left:2px solid #000002;
+	border-right:2px solid #000002;
+	border-bottom:2px solid #000002;
 }
 
 .contacto__comercial{
@@ -624,7 +624,7 @@ body > section.apps2{
 }
 
 .contacto__comercial a{
-	background-color:#5F1F58;
+	background-color:#000002;
 	color:#fff;
 	font-size: 0.8em;
 	padding: 0.5em 1em;
@@ -841,6 +841,10 @@ body > section.apps2{
 	text-decoration: underline;
 }
 
+.solucion__footer{   
+  min-height: 24vh;   
+}   
+
 .tienda__title{
 	margin-top: -1em;
 }
@@ -987,9 +991,7 @@ body > section.apps2{
     margin-bottom: 1em;
 }
 
-.solucion__footer{ 
-  min-height: 20vh; 
-} 
+
 
 
 /********************************
@@ -3689,6 +3691,11 @@ and (orientation : landscape) {
 }
 
 @media screen and (max-width:380px) {
+	.novedades__imagen img {
+	    width: 310px; 
+	    height: 220px;
+	}
+
 	.navbar-header {
     	padding-left: 4em;
     	padding-top: 5px;
