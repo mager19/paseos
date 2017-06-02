@@ -22,6 +22,7 @@
 
 body{
 	overflow-x: hidden;
+	background-color: #f5f5f5;
 }
 
 select {
@@ -225,7 +226,7 @@ nav ul li:hover a, .activo a{
 
 nav ul li:last-child{
 	margin-right: 0em;
-	padding: 0px 0.2em;
+	padding: 0px 0em;
 }
 
 .navbar{
@@ -553,8 +554,8 @@ body > section.apps2{
 
 .nosotros__header p{
 	color:#1A1A1A;
-	font-size: 0.8em;
-	line-height: 1.8em;
+	font-size: 1em;
+	line-height: 1.5em;
 	text-align: justify;
 	padding: 0 2em;
 	padding-top: 3em;
@@ -767,6 +768,7 @@ body > section.apps2{
 }
 
 .categoria__item img{
+	background-color: #fff;
 	border:1px solid #c1c1c1;
 	padding:15px 22px;
 	width: 150px;
@@ -1224,6 +1226,7 @@ body > section.apps2{
 }
 
 .promo__item--tipo{
+	background-color: #fff;
 	text-align: center;
 }
 
@@ -1773,6 +1776,8 @@ td.event.important {
 }
 
 
+
+
 @media (max-width: 1000px) {
     
 	.compartir__detalle {
@@ -2030,9 +2035,9 @@ td.event.important {
 	nav ul li {
 	    display: inline-block;
 	    font-size: 'Myriad Pro';
-	    margin-right: 0.2em;
+	    margin-right: 0em;
 	    height: 29px;
-	    padding: 5px 0.2em;
+	    padding: 5px 0em;
 	    vertical-align: middle;
 	}
 
@@ -3807,6 +3812,16 @@ and (orientation : landscape) {
     overflow-y: hidden;
 }
 
+
+
+@media only screen and (min-width: 769px) and (max-width: 999px)
+ {
+
+	.slide img {
+    	width: 55%;
+	}	
+
+}
 
 
 
