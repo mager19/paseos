@@ -273,6 +273,14 @@
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 
+<script>
+if (window.matchMedia('(max-width: 768px)').matches)
+{
+    $( ".slide img" ).removeClass( "bounceInRight" );
+    $( ".slide img" ).addClass( "fadeIn" );
+}
+</script>
+
 </body>
 </html>
 
